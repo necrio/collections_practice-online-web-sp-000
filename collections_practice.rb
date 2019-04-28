@@ -39,3 +39,11 @@ def find_a(a)
   end
 
 end
+
+def sum_array(a)
+number = 0
+a.each do |num|
+  number+=num
+end
+number
+end
