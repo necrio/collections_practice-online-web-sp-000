@@ -26,6 +26,7 @@ a.reverse
 end
 
 def kesha_maker(a)
+
   i = 0
   while i < a.length
     yield (a[2])
