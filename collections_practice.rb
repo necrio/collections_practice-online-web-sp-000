@@ -28,7 +28,7 @@ end
 def kesha_maker(a)
 
 a.each do |kesha|
-  item[2] = "$"
+  kesha[2] = "$"
 end
 
 end
