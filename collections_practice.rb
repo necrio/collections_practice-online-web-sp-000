@@ -47,3 +47,17 @@ a.each do |num|
 end
 number
 end
+
+
+def add_s(a)
+
+  a.collect do |words|
+    if a[1] == words
+      words
+    else
+      word + "s"
+    end
+  
+
+
+end
