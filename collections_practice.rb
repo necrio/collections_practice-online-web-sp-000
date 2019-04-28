@@ -32,3 +32,10 @@ a.each do |kesha|
 end
 
 end
+
+def find_a(a)
+  a.find_all do |words|
+    words[0] == "a"
+  end
+
+end
